@@ -1,0 +1,30 @@
+{
+  "name": "tiny-logger",
+  "version": "1.0.0",
+  "description": "Tiny logger",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prettier:check": "prettier --ignore-path .prettierignore --check '**/*.{js,ts,json,md}'",
+    "prettier:fix": "prettier --ignore-path .prettierignore --write '**/*.{js,ts,json,md}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ttpn18121996/tiny-logger.git"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": "Trịnh Trần Phương Nam <ttpn18121996@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "moment": "^2.30.1",
+    "tiny-supporter": "^1.8.2"
+  }
+}
