@@ -1,7 +1,7 @@
 {
-  "name": "tiny-logger",
+  "name": "@noravel/logger",
   "version": "1.0.0",
-  "description": "Tiny logger",
+  "description": "Noravel logger",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,7 +15,7 @@
   "prepare": "npm run build",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ttpn18121996/tiny-logger.git"
+    "url": "https://github.com/ttpn18121996/noravel-logger.git"
   },
   "keywords": [
     "logger"
